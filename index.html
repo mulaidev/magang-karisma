@@ -11,43 +11,11 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
     <!--Untuk Tampilan Menu Navbar-->
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="50" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="topik.html">Topik</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Reference
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Buku</a></li>
-              <li><a class="dropdown-item" href="#">Artikel</a></li>
-            </ul>
-          </li>
-        </ul>
-        <nav class="navbar navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">DAFTAR</a>
-            </form>
-          </div>
-      </div>
-  </nav>
+    <div hx-get="components/navbar/navbar.html" hx-trigger="load"></div>
 
-
-  <div class="p-3 bg-dark text-white">
     <!--Tulisan Di Home-->
+  <div class="p-3 bg-dark text-white">
     <div class="p-3 mb-2">
       <section class="py-100 container">
         <div class="row py-lg-5">
@@ -64,130 +32,19 @@
   </div>
  
 
-  <div class="p-3 bg-dark text-white">
+  
     <!--Untuk Cards Materi-->
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="Doktopik/PHP1.png"><text x="50%" y="50%" fill="#eceeef" dy=".3em">PHP Dasar 1</text>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"> <a
-                      href="https://www.youtube.com/watch?v=o8oLQVYlpqw&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6&index=3"
-                      target="_blank">View </a></button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="Doktopik/PHP2.png"><text x="50%" y="50%" fill="#eceeef" dy=".3em">PHP Dasar 2</text>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"> <a
-                      href="https://www.youtube.com/watch?v=o8oLQVYlpqw&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6&index=3"
-                      target="_blank">View </a></button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="Doktopik/PHP3.png"><text x="50%" y="50%" fill="#eceeef" dy=".3em">PHP Dasar 3</text>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"> <a
-                      href="https://www.youtube.com/watch?v=o8oLQVYlpqw&list=PLFIM0718LjIUqXfmEIBE3-uzERZPh3vp6&index=3"
-                      target="_blank">View </a></button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+  <div class="p-3 bg-dark text-white"></div>
+    <div hx-get="components/post/post.html" hx-trigger="load" style="bg-dark"></div>  
   </div>
 
-  <div class="p-3 mb-2 bg-dark text-primary">
     <!--Untuk Tampilan Footer-->
-
-    <div style="display: inline-block; margin: 100px; ">
-      <ul style="list-style-type: none;">
-        <h5> READY TO BINGE</h5>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Laravel 8 Dari awal</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Tailwind</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Tes Driven Laravel</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Reac JS</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Laravel 8 Dari awal</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Tailwind</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Tes Driven Laravel</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Belajar Reac JS</li>
-      </ul>
-    </div>
-
-    <div style="display: inline-block;  margin-right: 100px;">
-      <ul style="list-style-type: none;">
-        <h5> EKSPLORASI</h5>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Jalur</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Seri</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Topik</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Ebook</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Premium</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Seri Berbayar</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Popular</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Tranding</li>
-      </ul>
-    </div>
-
-    <div style="display: inline-block;  margin-right: 100px;">
-      <ul style="list-style-type: none;">
-        <h5> SOSIAL</h5>
-        <li style="margin-top: 10px; margin-bottom: 10px;">GitHub</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Facebook</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Twitter</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Instagram</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Telegram</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Youtube</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Discord</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">..</li>
-      </ul>
-    </div>
-
-    <div style=" display: inline-block; margin-right: 100px;">
-      <ul style="list-style-type: none; ;">
-        <h5> Tambahan</h5>
-        <li style="margin-top: 10px; margin-bottom: 10px;">FAQ</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Blog</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Harga</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Testimonial</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Kebijakan dan privasi</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Iklan</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Saweria</li>
-        <li style="margin-top: 10px; margin-bottom: 10px;">Syarat&Ketentuan</li>
-      </ul>
-    </div>
-
+  <div class="p-3 mb-2 bg-dark text-primary">
+    <div hx-get="components/navbar/footer.html" hx-trigger="load"></div> 
+  </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/htmx.min.js"></script>
 </body>
 
 </html>
