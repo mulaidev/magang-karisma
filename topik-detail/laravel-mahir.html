@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <title>Laravel</title>
+</head>
+<body>
+    <div hx-get="../components/navbar/navbar.html" hx-trigger="load"></div>
+
+    <div class="row p-5">
+        <div class="col-5">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Tiga desain terbaru </a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Dua fungsi terbaru</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Root scope binding</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Routing controller</a>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/WjivgrjfQOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/WjivgrjfQOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/WjivgrjfQOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/WjivgrjfQOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="../assets/js/bootstrap.bundle.min.js" ></script>
+    <script src="../assets/js/htmx.min.js"></script>
+</body>
+</html>
