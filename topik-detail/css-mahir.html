@@ -8,7 +8,9 @@
 </head>
 <body>
     <div hx-get="../components/navbar/navbar.html" hx-trigger="load"></div>
-
+    <div class="p-5">
+      <div hx-get="../components/breadcrumb/br-css-mahir.html" hx-trigger="load" ></div>
+    </div>
     <div class="row p-5">
         <div class="col-5">
           <div class="list-group" id="list-tab" role="tablist">
@@ -36,7 +38,7 @@
         </div>
       </div>
 
-
+      <div hx-get="../components/navbar/footer.html" hx-trigger="load"></div>
 
     <script src="../assets/js/bootstrap.bundle.min.js" ></script>
     <script src="../assets/js/htmx.min.js"></script>
